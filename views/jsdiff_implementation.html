@@ -5,33 +5,9 @@
     <script src="../src/find_diff.js" type="text/javascript"></script>
 </head>
 <body>
-    User Text: <input type="text" name="usertext" id="userText"><br>
-    <input type="submit" value="Submit" onclick="getDiff()">
-    <pre id="display"></pre>
-<!--<script>-->
-    <!--var one = 'beep boop',-->
-            <!--other = 'beep sgsh',-->
-            <!--color = '',-->
-            <!--span = null;-->
-
-    <!--var diff = JsDiff.diffChars(one, other),-->
-            <!--display = document.getElementById('display'),-->
-            <!--fragment = document.createDocumentFragment();-->
-
-
-    <!--diff.forEach(function (part) {-->
-        <!--// green for additions, red for deletions-->
-        <!--// grey for common parts-->
-        <!--color = part.added ? 'green' :-->
-                <!--part.removed ? 'red' : 'grey';-->
-        <!--span = document.createElement('span');-->
-        <!--span.style.color = color;-->
-        <!--span.appendChild(document-->
-                <!--.createTextNode(part.value));-->
-        <!--fragment.appendChild(span);-->
-    <!--});-->
-
-    <!--display.appendChild(fragment);-->
-<!--</script>-->
+    <p>Thank you to all my wonderful teachers, who inspired me to believe in myself and be brave.I am proud, well in fact, I am very proud to be the first Pashtun, the first Pakistani, and the youngest person to receive this award. Along with that, along with that, I am pretty certain that I am also the first recipient of the Nobel Peace Prize who still fights with her younger brothers. I want there to be peace everywhere, but my brothers and I are still working on that.</p>
+    <textarea rows="5" cols="100" id="para"></textarea>
+    <input type="submit" value="Submit Para" onclick="getDiff1()">
+    <div id="difference"> </div>
 </body>
 </html>
