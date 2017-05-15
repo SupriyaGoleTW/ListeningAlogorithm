@@ -1,5 +1,5 @@
 var assert = require('assert');
-var lib = require("../contentMatchingSpike");
+var lib = require("../src/contentMatchingSpike");
 var expectedText = "Sri Lanka last allowed a Chinese submarine to dock in the capital of Colombo in October 2014, a move that triggered fierce opposition from India, which worries about growing Chinese activity in a country it has long viewed as part of its area of influence.";
 var actualText = "Sri Lanka allowed Chinese submarine dock the capital of Colombo in October 2014, a move that triggered fierce opposition from India, which worries about growing Chinese activity in a country it has long viewed as part of its area of influence.";
 // assertEqual(match_content("I am a good boy","I am a bad boy"), {3:{original: "good", curr : "bad"}});
